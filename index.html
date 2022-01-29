@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>Costa Rica - Viajes</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+</head>
+
+<body>
+
+ 
+        <nav class="green ">
+            <div class="container">
+              <div class="nav-wrapper">
+                  <div id="logo-container-center">
+                      <a  href="https://tiusr7pl.cuc-carrera-ti.ac.cr/Taller2" class="brand-logo" >Taller 2 - Materialize CSS</a>
+                  </div>
+    </nav>
+
+    <h3 class="center">
+        <span class="teal-text">Componentes</span> Gráficos
+    </h3>
+    <br>
+    <span>
+        <h5>Slider - Carrousel</h5>
+    </span>
+
+
+    <!--     Se presentan el slider - carrousel  -->
+    <section class="slider">
+        <ul class="slides">
+            <li>
+                <img src="https://tiusr7pl.cuc-carrera-ti.ac.cr/Exposicion/talleres/Taller2/img/1.jpg" alt="">
+            </li>
+            <li>
+                <img src="https://tiusr7pl.cuc-carrera-ti.ac.cr/Exposicion/talleres/Taller2/img/2.jpg" alt="">
+            </li>
+            <li>
+                <img src="https://tiusr7pl.cuc-carrera-ti.ac.cr/Exposicion/talleres/Taller2/img/3.jpg" alt="">
+            </li>
+        </ul>
+    </section>
+
+    <!--     Se presentan las tarjetas  -->
+    <br><span>
+        <h5>Tarjetas</h5>
+    </span>
+
+    <section id=" popular" class="section section-popular scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://tiusr7pl.cuc-carrera-ti.ac.cr/Exposicion/talleres/Taller2/img/4.jpg" alt="">
+
+                        </div>
+                        <div class="card-content">
+                            <h5>Rottweiler</h5>
+                            <p>Es un perro de tamaño grande, robusto, ni tosco, ni ligero, ni frágil, ni con
+                                extremidades demasiado altas
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://tiusr7pl.cuc-carrera-ti.ac.cr/Exposicion/talleres/Taller2/img/5.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h5>Pastor Belga Malinois</h5>
+                            <p>
+                                Tiene aptitudes como guardián de rebaño, es tenaz y protector
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://tiusr7pl.cuc-carrera-ti.ac.cr/Exposicion/talleres/Taller2/img/6.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h5>Dogo Argentino</h5>
+                            <p> Es una raza de perro de presa utilizada para la caza mayor, es originaria de la
+                                Provincia de Córdoba,Argentina.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!--     Se presentan los modales  -->
+    <br><span>
+        <h5>Modales</h5>
+    </span>
+
+    <section id=" popular" class="section section-popular scrollspy">
+        <div class="container">
+            <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Ejemplo Modal</a>
+
+
+            <div id="modal1" class="modal">
+                <div class="row card-panel">
+                    <h3>Datos</h3>
+                    <div class="input-field col s6">
+                        <input type="text" id="Nombre" name="Nombre" class="validate" required>
+                        <label for="nombre">Nombre:</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input type="text" id="Apellido" name="Apellido" class="validate" required>
+                        <label for="apellido">Apellidos:</label>
+                    </div>
+
+                    <div class="input-field col s6">
+                        <input type="email" id="Correo" name="Correo" class="validate" required>
+                        <label for="email">Correo:</label>
+                    </div>
+
+                    <div class="input-field col s6">
+                        <input type="text" id="Telefono" name="Telefono" class="validate" required>
+                        <label for="telefono">Teléfono:</label>
+                    </div>
+
+                    <div class="mb-2">
+                        <button type="submit" class="btn" tabindex="">Enviar</button>
+                        <a href="" class="btn">Cancelar</a>
+                    </div>
+
+                </div>
+    </section>
+
+    <!--     Se presentan los plegables  -->
+    <br><span>
+        <h5>Plegables</h5>
+    </span>
+
+    <section>
+
+        <div id="popout" class="section scrollspy">
+            <div class="row">
+                <div class="col s6 m2">
+
+                </div>
+                <div class="col s12 m5">
+                    <ul class="collapsible popout">
+                        <li>
+                            <div class="collapsible-header">
+                                <i class="material-icons">filter_drama</i>Primero
+                            </div>
+                            <div class="collapsible-body">
+                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et
+                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip
+                                    ex ea commodo consequat.</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header">
+                                <i class="material-icons">place</i>Segundo
+                            </div>
+                            <div class="collapsible-body">
+                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et
+                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip
+                                    ex ea commodo consequat.</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header">
+                                <i class="material-icons">whatshot</i>Tercero
+                            </div>
+                            <div class="collapsible-body">
+                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et
+                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip
+                                    ex ea commodo consequat.</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col s16 m9 offset-m3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--     Se presentan los descubrimientos  -->
+    <br><span>
+        <h5>Descubrimientos</h5>
+    </span>
+
+    <section id=" popular" class="section section-popular scrollspy">
+        <div class="container">
+            <a class="waves-effect waves-light btn" onclick="$('.tap-target').tapTarget('open')">Abrir
+                Descubrimiento</a>
+
+            <br>
+            <br>
+
+            <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+                <a id="menu" class="btn btn-floating btn-large cyan">
+                    <i class="material-icons">menu</i>
+                </a>
+            </div>
+
+            <div class="tap-target green" data-target="menu">
+                <div class="tap-target-content white-text">
+                    <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae velit laboriosam blanditiis at ipsum magnam dolores illo natus, quam nobis delectus ipsam amet libero a soluta rem molestiae. Ratione, repellendus!.</p>
+                </div>
+            </div>
+
+        </div>
+</section>
+            <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+
+
+            <script>
+
+                // Side Menu
+                const sideNav = document.querySelector(".sidenav");
+                M.Sidenav.init(sideNav, {});
+
+                // Inicia el Slider
+                const slider = document.querySelector(".slider");
+                M.Slider.init(slider, {
+                    indicators: false,
+                    height: 300,
+                    transition: 500,
+                    interval: 6000
+                });
+
+                // Scrollspy
+                const ss = document.querySelectorAll(".scrollspy");
+                M.ScrollSpy.init(ss, {});
+
+                // Material Boxed
+                const mb = document.querySelectorAll(".materialboxed");
+                M.Materialbox.init(mb, {});
+
+// Inicia los modales
+                $(document).ready(function () {
+                    $('.modal').modal();
+                });
+
+// Inicia los desplegables
+                $(document).ready(function () {
+                    $('.collapsible').collapsible();
+                });
+
+// Inicia los descubrimientos
+                $(document).ready(function () {
+                    $('.tap-target').tapTarget();
+                });
+            </script>
+
+
+
+</body>
+
+</html>
